@@ -1,0 +1,59 @@
+html, body {
+  background-color: #F4F2F0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden
+}
+
+@font-face {
+  font-family: Typold;
+  src: url(fonts/Typold-Book-500.otf);
+}
+
+
+@font-face {
+  font-family: TypoldMedium;
+  src: url(fonts/Typold-Medium.otf);
+}
+
+
+body {
+  text-align: center;
+}
+
+#hex {
+  font-family: TypoldMedium, sans-serif;
+  color: #6A7D7C;
+  padding-bottom: 50px;
+  font-size: 16pt;
+}
+
+#rgb {
+  font-family: TypoldMedium, sans-serif;
+  color: #6A7D7C;
+  padding-top: 50px;
+  font-size: 16pt;
+}
+
+.piano {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.piano-container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.piano-keys{
+  word-spacing: 0;
+  letter-spacing: 0;
+  font-size: 0;
+}
